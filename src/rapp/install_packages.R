@@ -1,2 +1,2 @@
 # src/rapp/install_packages.R
-install.packages(c("readr","dplyr"))
+install.packages(c("readr","dplyr","tibble"))
