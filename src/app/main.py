@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 
 TRAIN = "src/data/train.csv"
 TEST  = "src/data/test.csv"
-OUT   = "src/data/pred_test.csv"
+OUT   = "src/data/pred_test_py.csv"
 
 features = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
 target = "Survived"
